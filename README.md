@@ -31,8 +31,9 @@
     nano .env
     ```
 	
-- Here are the currently accepted configurations
-    TOKEN= (`D` or `R`) / MODEL= Choose 1 Model from the LIST
+3. **Here are the currently accepted configurations
+- TOKEN= (`D` or `R`) 
+- MODEL= Choose 1 Model from the LIST
 	- SVR
  	- RandomForest
 	- GradientBoosting
@@ -50,7 +51,7 @@
     MODEL=MLP
     ```
 
-5. **Edit your config & initialize worker**
+4. **Edit your config & initialize worker**
 
    Edit for WALLET NAME / SEEDPHRASE / RPC
     ```sh
@@ -61,7 +62,7 @@
     chmod +x init.config
     ./init.config
     ```
-8. **Start the Services**
+5. **Start the Services**
     
     Run the following command to start the worker node, inference, and updater nodes:
     ```sh
@@ -77,7 +78,7 @@
     {"level":"debug","msg":"Send Worker Data to chain","txHash":<tx-hash>,"time":<timestamp>,"message":"Success"}
     ```
 
-## 2. Testing Inference Only
+## Testing Inference Only
 
    Send requests to the inference model. For example, request probability of Democrat(`D`) or Republic(`R`) :
    ```sh
