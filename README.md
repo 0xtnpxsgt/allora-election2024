@@ -1,4 +1,4 @@
-#ALLORA U.S PRESIDENTIAL (TOPIC-11) NODE SETUP
+# ALLORA U.S PRESIDENTIAL (TOPIC-11) NODE SETUP
 ## Disclaimer...
 **`This campaign rewards users who run worker nodes providing inferences for the US presidential election party winner once a day. Every inference should be the likelihood of the republican party winning the election. source`** [run-inference-political](https://app.allora.network/points/campaign/run-inference-political)
 
