@@ -26,14 +26,14 @@ Copy and read the example .env.example for your variables
 ```bash
 cp .env.example .env
 ```
-Edit .env Configuration
+Edit .env Configuration - Save `ctrl X + Y hit Enter`
 ```bash
 nano .env
  ```
 	
 3. **Here are the currently accepted configurations
 - TOKEN= (`D` or `R`) 
-- MODEL= Choose 1 Model from the LIST / Save `ctrl X + Y and Enter`
+- MODEL= Choose 1 Model from the LIST 
 	- SVR
  	- RandomForest
 	- GradientBoosting
@@ -52,7 +52,7 @@ MODEL=MLP
 
 4. **Edit your config & initialize worker**
 
-Edit for WALLET NAME / SEEDPHRASE / RPC
+Edit: WALLET NAME / SEEDPHRASE / RPC
 ```bash
 nano config.json
 ```
@@ -61,7 +61,7 @@ Run the following commands root directory to initialize the worker
 chmod +x init.config
 ./init.config
 ```
-5. **Start the Services**
+5. **Start your worker node**
     
 Run the following command to start the worker node, inference, and updater nodes:
 ```bash
