@@ -9,7 +9,7 @@
 - **Topic ID**: Running this worker on Topic 11
 - **TOKEN= D** For have inference D: Democrat
 - **TOKEN= R** For have inference R: Republic
-- **MODEL**: Own your model or modify
+- **MODEL**: 9 Total Models
 - **Dataset**: polymarket.com
 - **Probability**: Prediction of `%` total `0 - 100%`
 
