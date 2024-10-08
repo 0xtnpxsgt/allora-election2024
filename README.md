@@ -17,19 +17,19 @@
 
 1. **Clone this repository**
 ```bash
-   git clone https://github.com/0xtnpxsgt/allora-election2024.git
-   cd allora-election2024
+git clone https://github.com/0xtnpxsgt/allora-election2024.git
+cd allora-election2024
 ```
 2. **Provided and modify model config environment file**
     
-    Copy and read the example .env.example for your variables
-    ```sh
+Copy and read the example .env.example for your variables
+```bash
     cp .env.example .env
-    ```
-	Edit .ENV Configuration
-	```sh
-    nano .env
-    ```
+```
+Edit .ENV Configuration
+```bash
+nano .env
+ ```
 	
 3. **Here are the currently accepted configurations
 - TOKEN= (`D` or `R`) 
@@ -45,47 +45,46 @@
 	- AdaBoost
 
 - Sample .env Format
-    ```
-    TOKEN=R
-    MODEL=MLP
-    ```
+```bash
+TOKEN=R
+MODEL=MLP
+```
 
 4. **Edit your config & initialize worker**
 
-   Edit for WALLET NAME / SEEDPHRASE / RPC
-    ```sh
-    nano config.json
-    ```
-   Run the following commands root directory to initialize the worker
-    ```sh
-    chmod +x init.config
-    ./init.config
-    ```
+Edit for WALLET NAME / SEEDPHRASE / RPC
+```bash
+nano config.json
+```
+Run the following commands root directory to initialize the worker
+```bash
+chmod +x init.config
+./init.config
+```
 5. **Start the Services**
     
-    Run the following command to start the worker node, inference, and updater nodes:
-    ```sh
-    docker compose up --build -d
-    ```
-    Check running
-    ```sh
-    docker compose logs -f --tail=100
-    ```
+Run the following command to start the worker node, inference, and updater nodes:
+```bash
+docker compose up --build -d
+```
+Check logs
+```bash
+docker compose logs -f --tail=100
+```
 
-   To confirm that the worker successfully sends the inferences to the chain, look for the following log:
-    ```
-    {"level":"debug","msg":"Send Worker Data to chain","txHash":<tx-hash>,"time":<timestamp>,"message":"Success"}
-    ```
+To confirm that the worker successfully sends the inferences to the chain, look for the following log:
+```bash
+{"level":"debug","msg":"Send Worker Data to chain","txHash":<tx-hash>,"time":<timestamp>,"message":"Success"}
+```
 
 ## Testing Inference Only
 
-   Send requests to the inference model. For example, request probability of Democrat(`D`) or Republic(`R`) :
-   ```sh
-   curl http://127.0.0.1:8000/inference/R
-   ```
-   Expected response of numbering:
-   `
-   "value":"xx.xxxx"`
+Send requests to the inference model. For example, request probability of Democrat(`D`) or Republic(`R`) :
+```sh
+curl http://127.0.0.1:8000/inference/R
+```
+Expected response of numbering:
+`"value":"xx.xxxx"`
 
 
 ##### THANKS TO ARCXTEAM FOR THE IDEA
