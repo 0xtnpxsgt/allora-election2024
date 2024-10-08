@@ -24,7 +24,7 @@ cd allora-election2024
     
 Copy and read the example .env.example for your variables
 ```bash
-    cp .env.example .env
+cp .env.example .env
 ```
 Edit .ENV Configuration
 ```bash
