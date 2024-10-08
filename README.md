@@ -17,8 +17,8 @@
 
 1. **Clone this repository**
    ```sh
-   git clone https://github.com/0xtnpxsgt/allora-election-2024.git
-   cd allora-election-2024
+   git clone https://github.com/0xtnpxsgt/allora-election2024.git
+   cd allora-election2024
     ```
 2. **Provided and modify model config environment file**
     
