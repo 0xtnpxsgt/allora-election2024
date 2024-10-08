@@ -47,7 +47,7 @@ nano .env
 - Sample .env Format
 ```bash
 TOKEN=R
-MODEL=MLP
+MODEL=SVR
 ```
 
 4. **Edit your config & initialize worker**
