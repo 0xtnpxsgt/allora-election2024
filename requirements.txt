@@ -1,0 +1,10 @@
+flask[async]
+gunicorn[gthread]
+numpy
+pandas
+requests
+aiohttp
+multiprocess
+scikit-learn
+python-dotenv
+joblib

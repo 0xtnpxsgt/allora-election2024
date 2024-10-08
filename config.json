@@ -1,0 +1,33 @@
+{
+    "wallet": {
+        "addressKeyName": "YOURWALLETNAME",
+        "addressRestoreMnemonic": "YOURWALLETSEEDPHRASE",
+        "alloraHomeDir": "./root/.allorad",
+        "gas": "auto",
+        "gasAdjustment": 1.5,
+        "nodeRpc": "https://rpc.ankr.com/allora_testnet",
+        "maxRetries": 3,
+        "delay": 1,
+        "submitTx": true
+    },
+        "worker": [
+       {
+           "topicId": 11,
+           "inferenceEntrypointName": "api-worker-reputer",
+           "loopSeconds": 8,
+           "parameters": {
+               "InferenceEndpoint": "http://inference:8000/inference/{Token}",
+               "Token": "R"
+           }
+       },
+       {
+           "topicId": 11,
+           "inferenceEntrypointName": "api-worker-reputer",
+           "loopSeconds": 12,
+           "parameters": {
+               "InferenceEndpoint": "http://inference:8000/inference/{Token}",
+               "Token": "D"
+           }
+       }
+   ]
+}
