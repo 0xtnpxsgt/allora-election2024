@@ -44,7 +44,7 @@
 	- ExtraTrees
 	- AdaBoost
 
-- Sample Format
+- Sample .env Format
     ```
     TOKEN=R
     MODEL=MLP
