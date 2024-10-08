@@ -33,7 +33,7 @@
 	
 3. **Here are the currently accepted configurations
 - TOKEN= (`D` or `R`) 
-- MODEL= Choose 1 Model from the LIST
+- MODEL= Choose 1 Model from the LIST / Save `ctrl X + Y and Enter`
 	- SVR
  	- RandomForest
 	- GradientBoosting
@@ -43,7 +43,6 @@
 	- MLP
 	- ExtraTrees
 	- AdaBoost
-Save `ctrl X + Y and Enter`
 
 - Sample Format
     ```
