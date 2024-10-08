@@ -16,10 +16,10 @@
 ### Setup Worker
 
 1. **Clone this repository**
-   ```sh
+```bash
    git clone https://github.com/0xtnpxsgt/allora-election2024.git
    cd allora-election2024
-    ```
+```
 2. **Provided and modify model config environment file**
     
     Copy and read the example .env.example for your variables
