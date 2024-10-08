@@ -32,8 +32,8 @@
     ```
 	
     Here are the currently accepted configurations
-   - TOKEN= (`D` or `R`)
-   - MODEL= Choose 1 Model from the LIST
+    TOKEN= (`D` or `R`)
+    MODEL= Choose 1 Model from the LIST
 	- SVR
  	- RandomForest
 	- GradientBoosting
