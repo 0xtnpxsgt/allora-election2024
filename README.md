@@ -34,15 +34,15 @@
     Here are the currently accepted configurations
    - TOKEN= (`D` or `R`)
    - MODEL= Choose 1 Model from the LIST
-      1. SVR
-	  2. RandomForest
-	  3. GradientBoosting
-	  4. LinearRegression
-	  5. DecisionTree
-	  6. KNeighbors
-	  7. MLP
-	  8. ExtraTrees
-	  9. AdaBoost
+	- SVR
+ 	- RandomForest
+	- GradientBoosting
+	- LinearRegression
+	- DecisionTree
+	- KNeighbors
+	- MLP
+	- ExtraTrees
+	- AdaBoost
    - Save `ctrl X + Y and Enter`
 
 5. **Edit your config & initialize worker**
