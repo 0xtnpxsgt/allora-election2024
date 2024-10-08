@@ -43,7 +43,7 @@
 	- MLP
 	- ExtraTrees
 	- AdaBoost
-   - Save `ctrl X + Y and Enter`
+Save `ctrl X + Y and Enter`
 
 - Sample Format
     ```
