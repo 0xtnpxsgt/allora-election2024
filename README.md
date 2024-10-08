@@ -26,7 +26,7 @@ Copy and read the example .env.example for your variables
 ```bash
 cp .env.example .env
 ```
-Edit .ENV Configuration
+Edit .env Configuration
 ```bash
 nano .env
  ```
