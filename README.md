@@ -46,7 +46,7 @@ nano .env
 
 - Sample .env Format
 ```bash
-TOKEN=R
+TOKEN=R,D
 MODEL=SVR
 ```
 
