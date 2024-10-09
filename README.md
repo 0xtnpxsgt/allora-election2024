@@ -83,6 +83,15 @@ Send requests to the inference model. For example, request probability of Democr
 ```sh
 curl http://127.0.0.1:8000/inference/R
 ```
+##  Troubleshoot Container Error
+
+![Screenshot 2024-10-09 110331](https://github.com/user-attachments/assets/cc8412e7-24dc-4c46-8436-232ff373400c)
+
+To Fix Run Command: 
+```bash
+docker compose restart
+```
+
 Expected response of numbering:
 `"value":"xx.xxxx"`
 
