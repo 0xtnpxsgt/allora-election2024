@@ -44,7 +44,7 @@ nano .env
 	- ExtraTrees
 	- AdaBoost
 
-- Sample .env Format
+- Sample .env file Format
 ```bash
 TOKEN=R,D
 MODEL=SVR
